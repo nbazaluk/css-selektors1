@@ -1,0 +1,77 @@
+p {
+    color: red;
+    background-color: green;
+}
+
+#text {
+    background-color: yellow;
+}
+
+.desc {
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+[href] {
+    text-decoration: none;
+}
+
+.desc,
+.desc1 {
+    color: blue;
+}
+
+.nav a {
+    color: red;
+}
+
+* {
+    color: blue;
+}
+
+p+.desc-new {
+    background-color: fuchsia;
+}
+
+.desc1:hover {
+    background-color: fuchsia;
+}
+
+.desc2:active {
+    background-color: fuchsia;
+}
+
+.input:focus {
+    background-color: aqua;
+}
+
+*:focus {
+    background-color: aqua;
+}
+
+.input:disabled {
+    border: 2px solid red;
+}
+
+.fake-check {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+}
+
+.check:checked+.fake-check {
+    background-color: blue;
+}
+
+.nav__item {
+    margin-bottom: 50px;
+}
+
+.nav__item:last-child {
+    margin-bottom: 0px;
+}
+
+p {
+    color: gold !important;
+}
